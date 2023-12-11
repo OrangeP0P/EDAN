@@ -21,10 +21,10 @@ Once you have the environment set up, you can run `main.py` by following these s
 
 2. Navigate to the directory where `main.py` is located.
 
-3. Select the network. You can select the correspoding testing model such as 'EDAN/IA_EDAN/IE_EDAN/EEGNet/DDC/DeepCoral.etc' with the setting:
+3. Select the network. You can select the correspoding testing model such as 'EDAN/IA_EDAN/IE_EDAN/EEGNet/DDC/DeepCoral.etc' with the setting in 'main.py':
 
    ```bash
-    Net_number = 'EDAM' # Choose EDAN model
+    Net_number = 'EDAN' # Choose EDAN model
     ```
    
 5. Run the script with the command:
