@@ -12,7 +12,6 @@ Before running the application, ensure that you have the following prerequisites
 
 2. **PyTorch:** This project requires PyTorch. If you haven't installed PyTorch yet, you can find installation instructions on the [official PyTorch website](https://pytorch.org/get-started/locally/).
 
-3. **Additional Dependencies:** If there are any other libraries or dependencies required, please refer to the `requirements.txt` file and install them using the command `pip install -r requirements.txt`.
 
 ## Running main.py
 
@@ -22,7 +21,13 @@ Once you have the environment set up, you can run `main.py` by following these s
 
 2. Navigate to the directory where `main.py` is located.
 
-3. Run the script with the command:
+3. Select the network. You can select the correspoding testing model such as 'EDAN/IA_EDAN/IE_EDAN/EEGNet/DDC/DeepCoral.etc' with the setting:
+
+   ```bash
+    Net_number = 'EDAM' # Choose EDAN model
+    ```
+   
+5. Run the script with the command:
 
     ```bash
     python main.py
